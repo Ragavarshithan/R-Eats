@@ -9,7 +9,11 @@ function TopPicks() {
     <div>
         <h1 className='text-orange-500 font-bold text-2xl text-center py-2'>Top Picks</h1>
         <div className='md:flex sm:flex lg:flex max-w-[1520px] m-auto py-2 px-2'>
-          <Splide options={{perPage:4,gap:"0.5rem",grag:'free',arrows: false}}>
+          <Splide options={{perPage:4,gap:"0.5rem",grag:'free',arrows: false}}
+           breakpoints={{
+            768: { perPage: 2 } // Display 2 items per page on screens with a width of 768px or smaller
+          }}
+          >
           {
             topPicks.map((item)=>{
               return(
