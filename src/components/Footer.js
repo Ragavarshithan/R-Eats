@@ -26,37 +26,37 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="lg:col-span-2 flex justify-between mt-6">
-          <div>
+        <div className="lg:col-span-2 md:flex flex-wrap justify-between mt-6">
+          <div className="mb-4 md:w-1/4 w-full md:pr-4">
             <h6 className="font-medium text-[#9b9b9b]">Location</h6>
-            <ul>
+            <ul className="py-2 text-sm">
             <li className="py-2 text-sm">Srilanka</li>
               <li className="py-2 text-sm">India</li>
               <li className="py-2 text-sm">Canada</li>
               <li className="py-2 text-sm">Swiss</li>
             </ul>
           </div>
-          <div>
+          <div className="mb-4 md:w-1/4 w-full md:pr-4">
             <h6 className="font-medium text-[#9b9b9b]">About</h6>
-            <ul>
+            <ul className="py-2 text-sm">
             <li className="py-2 text-sm">History</li>
               <li className="py-2 text-sm">Leadership</li>
               <li className="py-2 text-sm">Milestone</li>
               <li className="py-2 text-sm">News</li>
             </ul>
           </div>
-          <div>
+          <div className="mb-4 md:w-1/4 w-full md:pr-2">
             <h6 className="font-medium text-[#9b9b9b]"> Delivery Partners</h6>
-            <ul>
+            <ul className="py-2 text-sm">
             <li className="py-2 text-sm">Pickme</li>
               <li className="py-2 text-sm">Uber</li>
               <li className="py-2 text-sm">Canada</li>
               <li className="py-2 text-sm">Swiss</li>
             </ul>
           </div>
-          <div>
+          <div className="mb-4 md:w-1/4 w-full md:pr-4">
             <h6 className="font-medium text-[#9b9b9b]">Location</h6>
-            <ul>
+            <ul className="py-2 text-sm">
             <li className="py-2 text-sm">Srilanka</li>
               <li className="py-2 text-sm">India</li>
               <li className="py-2 text-sm">Canada</li>

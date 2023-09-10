@@ -31,7 +31,7 @@ function TopPicks() {
                     <p className='px-2 text-white'>{item.price}</p>
                     <button className='border-dotted border-white text-white mx-2 absolute'>Add To Cart</button>
                   </div>
-                  <img className='h-[200px] w-full object-cover rounded-3xl cursor-pointer hover:scale-105 ease-out duration-300 sm:(h-[150px] hover:scale-110) lg:(h-[250px] hover:scale-105)' src={item.img}
+                  <img className='h-[200px] w-full object-cover rounded-3xl cursor-pointer hover:scale-105 ease-out duration-300 sm:(h-[150px] hover:scale-110) lg:(h-[250px] hover:scale-105)'referrerPolicy="no-referrer" src={item.img}
                   alt={item.title}/>
                 </div>
                 </SplideSlide>
