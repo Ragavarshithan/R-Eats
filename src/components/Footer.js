@@ -37,12 +37,12 @@ const Footer = () => {
             </ul>
           </div>
           <div className="mb-4 md:w-1/4 w-full md:pr-4">
-            <h6 className="font-medium text-[#9b9b9b]">About</h6>
+            <h6 className="font-medium text-[#9b9b9b]">Information</h6>
             <ul className="py-2 text-sm">
-            <li className="py-2 text-sm">History</li>
-              <li className="py-2 text-sm">Leadership</li>
-              <li className="py-2 text-sm">Milestone</li>
-              <li className="py-2 text-sm">News</li>
+            <li className="py-2 text-sm">About us</li>
+              <li className="py-2 text-sm">FAQ</li>
+              <li className="py-2 text-sm">Privacy Policy</li>
+              <li className="py-2 text-sm">Terms & Conditions</li>
             </ul>
           </div>
           <div className="mb-4 md:w-1/4 w-full md:pr-2">
@@ -50,17 +50,16 @@ const Footer = () => {
             <ul className="py-2 text-sm">
             <li className="py-2 text-sm">Pickme</li>
               <li className="py-2 text-sm">Uber</li>
-              <li className="py-2 text-sm">Canada</li>
-              <li className="py-2 text-sm">Swiss</li>
+              <li className="py-2 text-sm">Foodi</li>
+              
             </ul>
           </div>
           <div className="mb-4 md:w-1/4 w-full md:pr-4">
-            <h6 className="font-medium text-[#9b9b9b]">Location</h6>
+            <h6 className="font-medium text-[#9b9b9b]">Customer Services</h6>
             <ul className="py-2 text-sm">
-            <li className="py-2 text-sm">Srilanka</li>
-              <li className="py-2 text-sm">India</li>
-              <li className="py-2 text-sm">Canada</li>
-              <li className="py-2 text-sm">Swiss</li>
+            <li className="py-2 text-sm">Contact us</li>
+              <li className="py-2 text-sm">Site Map</li>
+             
             </ul>
           </div>
         </div>
