@@ -14,9 +14,8 @@ const Footer = () => {
         <div>
           <h1 className="w-full text-3xl font-bold text-orange-500">YumEats</h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit
-            ullam iste repellat consequatur libero reiciendis, blanditiis
-            accusantium.
+          Welcome to r-eat, your ultimate destination for delightful dining experiences delivered right to your doorstep.
+           Explore a world of culinary delights curated just for you. Order now and savor every bite! Bon appétit!
           </p>
           <div className="flex justify-between md:w-[75%] my-6">
             <FaFacebookSquare className="cursor-pointer" size={30} />
