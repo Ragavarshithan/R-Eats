@@ -14,7 +14,7 @@ const Footer = () => {
         <div>
           <h1 className="w-full text-3xl font-bold text-orange-500">R's Eats</h1>
           <p>
-          Welcome to r-eat, your ultimate destination for delightful dining experiences delivered right to your doorstep.
+          Welcome to R's-Eats, your ultimate destination for delightful dining experiences delivered right to your doorstep.
            Explore a world of culinary delights curated just for you. Order now and savor every bite! Bon appétit!
           </p>
           <div className="flex justify-between md:w-[75%] my-6">
